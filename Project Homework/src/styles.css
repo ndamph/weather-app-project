@@ -1,0 +1,64 @@
+.container {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  background: lightgray;
+  border-radius: 15px;
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 600px;
+  box-shadow: 5px 5px 10px rgba(108, 106, 106, 0.5);
+}
+
+input {
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px none;
+  padding: 10px 15px;
+  margin: 10px 0;
+}
+
+.searchButton {
+  background: teal;
+  color: white;
+}
+
+.searchBar {
+  background: white;
+  width: 50%;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+p strong {
+  color: teal;
+}
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.current-weather p {
+  margin: 25px 0;
+}
+main .currentTemp {
+  display: block;
+  font-size: 70px;
+  font-weight: 500;
+  position: relative;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  font-family: "Space Mono", monospace;
+}
+
+footer a {
+  color: maroon;
+  text-decoration: none;
+}
